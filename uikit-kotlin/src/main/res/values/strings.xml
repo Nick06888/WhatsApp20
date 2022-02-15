@@ -1,0 +1,378 @@
+<resources>
+    <string name="app_name" translatable="false">WhatsApp 2</string>
+
+
+    <!--Tags-->
+    <string name="user" translatable="false">utente</string>
+    <string name="group">gruppo</string>
+    <string name="conversation" translatable="false">Conversazione</string>
+    <string name="replyTxt" translatable="false">rispondi</string>
+    <string name="call" translatable="false">Chiamata</string>
+    <string name="baseMessage" translatable="false">baseMessage</string>
+    <string name="sticker" translatable="false">sticker</string>
+
+
+    <!--BottomBar-->
+    <string name="more">Più</string>
+    <string name="users">Utenti</string>
+    <string name="chats">Chat</string>
+    <string name="groups">Gruppi</string>
+    <string name="calls">Chiamate</string>
+
+
+    <!--ComposeBox-->
+    <string name="message">Scrivi un messaggio</string>
+    <string name="tap_to_start_conversation">Tocca per iniziare a parlare</string>
+    <string name="edit_message">Edit Message</string>
+
+    <!--.Block User-->
+    <string name="unblock_user">Sblocca Utente</string>
+    <string name="block_user">Blocca Utente</string>
+    <string name="blocked_users">Utenti Bloccati</string>
+    <string name="user_is_blocked">%1$s bloccato con successo</string>
+    <string name="unblock">Sblocca</string>
+    <string name="block_user_list_error">Errore</string>
+    <string name="you_wont_be_able_send_or_receive_messages">Non potrai ne inviare ne ricevere messaggi</string>
+    <string name="unblock_user_error">Utente non sbloccato</string>
+    <string name="unblock_user_question">Vuoi sbloccare %1$s</string>
+    <string name="block_user_error">Impossibile bloccare %1$s</string>
+
+    <!--Group-->
+    <string name="create_group">Crea Gruppo</string>
+    <string name="enter_group_name">Inserisci un nome</string>
+    <string name="make_group_admin">Promuovi ad admin</string>
+    <string name="is_now_admin">%1$s ora è un admin</string>
+    <string name="add_in">Aggiungi nel gruppo \" %1$s \"</string>
+    <string name="leave_group">Esci dal Gruppo</string>
+    <string name="assign_as_admin">Promuovi ad admin</string>
+    <string name="remove_as_admin">Rimuovi %1$s come admin</string>
+    <string name="owner">Creatore</string>
+    <string name="admin">Admin</string>
+    <string name="moderator">Moderatore</string>
+    <string name="administrators">Amministratori</string>
+    <string name="members">Membri</string>
+    <string name="add_members">Aggiungi Membri</string>
+    <string name="join">Entra</string>
+    <string name="unbanned_successfully">sbannato con successo</string>
+    <string name="make_group_moderator">Promuovi a moderatore</string>
+    <string name="remove_as_moderator">Rimuovi %1$s come moderatore</string>
+    <string name="remove_from_moderator_privilege">%1$s rimosso come moderatore</string>
+    <string name="assign_as_moderator">Promuovi a moderatore</string>
+    <string name="is_now_moderator">%1$s è ora un moderatore</string>
+    <string name="ban_member">Banna Membro</string>
+
+
+    <!--Groups -->
+    <string name="kindly_enter_group_details_to_proceed">Inserisci i dati ritardato</string>
+    <string name="unable_to_join_message">Impossibile entrare nel gruppo</string>
+    <string name="make_admin_question">Vuoi fare diventare %1$s un admin</string>
+    <string name="remove_from_group">⚠️ Rimuovi da %1$s</string>
+    <string name="add_user_to_group">Aggiungi  %1$s  a \" %2$s \"</string>
+    <string name="user_added_to_group">%1$s aggiunto a \"  %2$s \"</string>
+    <string name="user_removed_from_group">%1$s rimosso da \" %2$s \"</string>
+    <string name="kicked_error">Membro impossibile da cacciare</string>
+
+    <string name="delete_group">Cancella gruppo</string>
+    <string name="delete_group_message">Cancella gruppo</string>
+    <string name="group_delete_error">Impossibile cancellare il gruppo</string>
+    <string name="cannot_remove_member">Impossibile rimuovere %1$s</string>
+    <string name="leave_group_error">Impossibile uscire dal gruppo</string>
+    <string name="load_more">Mostra Di Più</string>
+    <string name="load_more_members">Mostra %1$s membri</string>
+    <string name="group_list_error">Impossibile mostrare la lista</string>
+    <string name="password">Password</string>
+    <string name="joining">Entrando</string>
+    <string name="incorrect">Incorretto</string>
+    <string name="banned_members">Membri Bannati</string>
+    <string name="ban_member_of_group">Membri bannati di %1$s</string>
+    <string name="unban_error">Impossibile sbannare %1$s</string>
+    <string name="enter_group_desc">Inserisci la descrizione del gruppo</string>
+    <string name="enter_group_password">Inserisci la password del gruppo</string>
+    <string name="enter_group_cnf_pwd">Conferma Password</string>
+    <string name="password_not_matched">La password non è la stessa</string>
+    <string name="enter_password_to_join">Inserisci la password del gruppo %1$s</string>
+    <string name="no_ban_members">Nessun Membro Bannato</string>
+    <string name="moderators">Moderatori</string>
+    <string name="moderator_list_retrieve_error">Impossibile mostrare la lista.</string>
+    <string name="make_moderator_question">Vuoi far diventare %1$s un moderatore</string>
+    <string name="only_admin_removes_moderator">Solo gli Admin possono farlo</string>
+    <string name="update_group">Aggiorna Gruppo</string>
+    <string name="enter_group_icon_url">Inserisci La Foto Profilo</string>
+    <string name="group_updated">Gruppo aggiornato con successo</string>
+    <string name="group_update_failed">Gruppo non aggiornato</string>
+    <string name="enter_old_group_pwd">Inserisci la vecchia password</string>
+    <string name="enter_new_password">Inserisci la nuova password</string>
+    <string name="group_alert">Avvisi del Gruppo</string>
+    <string name="transfer">trasferisci</string>
+    <string name="leave_group_message">Sei sicuro che vuoi uscire dal gruppo?</string>
+    <string name="transfer_ownership_message">Sei il creatore del gruppo, da a qualcuno il tuo titolo prima di uscire.</string>
+    <string name="make_owner">Promuovi a Creatore</string>
+    <string name="make_owner_question">Vuoi far diventare %1$s il creatore</string>
+    <string name="user_is_owner">%1$s è ora il creatore</string>
+    <string name="not_a_member">Non sei un membro di questo gruppo (%1$s)</string>
+    <string name="owner_alert">Avviso del Creatore</string>
+    <string name="owner_alert_message">Sei il creatore del gruppo, da a qualcuno il tuo titolo prima di uscire</string>
+    <array name="groupType">
+        <item>Gruppo Pubblico</item>
+        <item>Gruppo Privato</item>
+        <item>Gruppo Protetto Da Password</item>
+    </array>
+    <!---->
+
+
+    <!--GroupErrors-->
+    <!--Not available in iOS-->
+    <string name="you_cannot_perform_action">Non puoi fare questo su te stesso</string>
+    <string name="only_group_owner_removes_admin">Non hai il permesso di fare ciò</string>
+    <string name="removed_from_admin">%1$s non è più un admin</string>
+    <string name="update_group_member_error">Impossibile aggiornare i membri</string>
+    <string name="admin_list_retrieve_error" >Impossibile recuperare la lista degli admin</string>
+    <string name="create_group_error">Impossibile creare un gruppo</string>
+    <string name="update_scope_error">Operazione fallita in %1$s</string>
+    <string name="group_member_list_error">Errore: che cazzo ne so</string>
+    <string name="ban_list_fetch_error">Impossibile recuperare l\'elenco dei membri esclusi</string>
+
+    <!--Permission Error-->
+    <string name="grant_camera_permission">Dai il permesso per accedere alla telecamera</string>
+    <string name="grant_storage_permission">Dai il permesso per accedere allo storage</string>
+    <string name="file_not_exist">File Inesistente</string>
+
+    <!--Calls-->
+    <string name="video_call">Videochiamata</string>
+    <string name="audio_call">Chiamata</string>
+    <string name="missed_voice_call">Chiamata persa</string>
+    <string name="missed_video_call">Videochiamata persa</string>
+
+    <!--Calls -->
+    <string name="call_list_error">Impossibile recupare l\'elenco delle chiamate</string>
+    <string name="no_call_message">Non hai fatto alcuna chiamata</string>
+    <string name="calling">Chiamando</string>
+    <string name="call_initiate_error">Impossibile avviare la chiamata</string>
+    <string name="outgoing">In Uscita</string>
+    <string name="incoming">In Entrata</string>
+    <string name="history">Storia</string>
+    <string name="all">Tutto</string>
+    <string name="missed">Perse</string>
+    <string name="new_call">Nuova Chiamata</string>
+    <string name="incoming_audio_call">Chiamata In Arrivo</string>
+    <string name="incoming_video_call">Videochiamata In Arrivo</string>
+    <string name="missed_call">Persa</string>
+    <string name="rejected_call">Rifiutata</string>
+    <string name="ongoing_call">Chiamata già avviata</string>
+    <string name="ongoing_call_message">Chiamata già avviata. Vorresti entrare ?</string>
+    <string name="tap_to_join_call">Tocca Per Entrare</string>
+    <!---->
+
+
+    <!--Shared Media -->
+    <string name="shared_media">Media Condivisi</string>
+
+    <string name="no_media">Non ci sono Media</string>
+    <string name="images">Immagini</string>
+    <string name="videos">Video</string>
+    <string name="files">Files</string>
+
+    <!--No data message-->
+    <string name="no_conversations">Non hai iniziato nessuna conversazione.</string>
+    <string name="no_user_available">Nessun user visualizzabile</string>
+    <string name="no_group_available">Nessun gruppo visualizzabile</string>
+    <string name="no_block_users">Nessun user bloccato visualizzabile</string>
+    <string name="no_missedcall_message">Non hai nessuna chiamata persa</string>
+    <!---->
+
+    <!--Message section-->
+    <string name="you">Tu</string>
+    <string name="this_message_deleted">⚠️ Messaggio Eliminato</string>
+    <string name="view_on_youtube">Guarda su Youtube</string>
+    <string name="visit">Visita</string>
+    <string name="remove">Rimuovi</string>
+    <string name="cancel">Cancella</string>
+    <string name="text_copied">Testo copiato negli appunti</string>
+    <string name="delete_message">Elimina</string>
+    <string name="send_message">Invia</string>
+    <string name="privacy_and_security">Privacy &amp; Sicurezza</string>
+    <string name="add">Aggiungi</string>
+    <string name="forward_message">Inoltra</string>
+    <string name="actions">Azioni</string>
+    <string name="preferences">Preferenze</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="reply_message">Rispondi</string>
+    <string name="share_message">Condividi</string>
+    <string name="copy_message">Copia</string>
+    <string name="start_thread">Inizia Dibattito</string>
+    <string name="message_information">Informazioni</string>
+    <string name="create_poll">Crea Sondaggio</string>
+    <string name="photo_video_library">Foto &amp; Video Libreria</string>
+    <string name="share_location">Condividi Posizione</string>
+    <string name="create_a_poll">Crea un sondaggio</string>
+    <string name="take_a_photo">Fai una foto</string>
+    <string name="ok">OK</string>
+    <string name="send_sticker">Invia Sticker</string>
+    <string name="you_created_whiteboard">Hai creato una nuova lavagna collaborativa.</string>
+    <string name="has_shared_whiteboard">Ha condiviso una nuova lavagna collaborativa.</string>
+    <string name="you_created_document">Hai creato un nuovo documento collaborativo.</string>
+    <string name="has_shared_document">Ha condiviso un nuovo documento collaborativo.</string>
+    <string name="launch">Lancia</string>
+
+    <string name="yes">Si</string>
+    <string name="fill_this_field">Riempi questo campo</string>
+    <string name="send">Invia</string>
+    <string name="details">Dettagli</string>
+    <string name="privacy_support">Privacy &amp; Supporto</string>
+    <string name="user_title">User</string>
+    <string name="search">Cerca</string>
+    <string name="custom_message">Hai un messaggio</string>
+    <string name="enter_avatar_url">Metti l\'immagine profilo</string>
+    <string name="enter_user_name">Inserisci il tuo nome</string>
+    <string name="update_user">Aggiorna User</string>
+    <string name="shared_a_image">Immagine Condivisa</string>
+    <string name="shared_a_audio">File Audio Condiviso %1$s</string>
+    <string name="shared_a_video">Video Condiviso</string>
+    <string name="shared_a_file">File Condiviso %1$s</string>
+    <string name="shared_a_sticker">Sticker Condiviso</string>
+    <string name="shared_a_polls">Sondaggio Condiviso : \n %1$s</string>
+    <string name="share">Condividi</string>
+    <string name="sensitive_content">Contenuto Insicuro.</string>
+    <string name="sentiment_content">Il seguente messaggio contiene materiale zozzo, buona fortuna.</string>
+    <string name="view">Visualizza</string>
+    <string name="sentiment_alert">Allerta</string>
+    <string name="sentiment_alert_message">Vuoi davvero vedere questa immagine? Può contenere materiale zozzo.</string>
+    <string name="thread_in_name">Dibattito in %1$s</string>
+    <string name="sentattxt">Inviato a : %1$s</string>
+    <string name="connecting_to_call">Connessione Alla Chiamata</string>
+    <string name="read_at">Letto a : %1$s</string>
+    <string name="delivered_at">Arrivato a : %1$s</string>
+    <string name="navigate">Naviga</string>
+    <string name="grant_location_permission">Attiva il permesso di geolocalizzazione.</string>
+    <string name="send_audio_files">Manda File Audio</string>
+    <string name="send_files">File &amp; Documenti</string>
+    <string name="shared_location">%1$s ha condiviso la sua posizione</string>
+    <string name="no">No</string>
+    <string name="turn_on_gps">Attiva Il GPS</string>
+    <string name="on">ATTIVO</string>
+    <string name="gps_enabled">GPS Attivato</string>
+    <string name="gps_disabled">GPS Disattivato</string>
+    <string name="option">Opzioni</string>
+    <string name="sending_media_message">Mandando media...</string>
+    <string name="enter_your_option">Inserisci le opzioni</string>
+    <string name="enter_your_question">Inserisci la tua domanda</string>
+    <string name="question">Domanda</string>
+    <string name="add_a_new_option">Aggiungi Un Opzione</string>
+    <string name="unable_to_get_location">Impossibile trovare la tua posizione</string>
+    <string name="ended">Finito</string>
+    <string name="ongoing">In Corso</string>
+    <string name="share_whiteboard">lavagna collaborativa</string>
+    <string name="shared_a_whiteboard">lavagna collaborativa condivisa</string>
+    <string name="share_writeboard">documento collaborativo</string>
+    <string name="shared_a_writeboard">documento collaborativo condiviso</string>
+    <string name="you_sent">Hai inviato un %1$s </string>
+    <string name="you_received">Hai ricevuto un %1$s</string>
+    <string name="initiate_a_call">Inizia una chiamata</string>
+    <string name="accept">Accetta</string>
+    <string name="add_admin">Aggiungi Admin</string>
+    <string name="add_moderator">Aggiungi Moderatore</string>
+    <string name="add_new_option">Aggiungi un opzione</string>
+    <string name="add_reaction">Aggiungi reazione</string>
+    <string name="added_successfully">aggiunto con successo</string>
+    <string name="you_deleted_this_message">⚠️ Hai eliminato questo messaggio</string>
+    <string name="yesterday">Ieri</string>
+    <string name="back">indietro</string>
+    <string name="ban">Ban</string>
+    <string name="banned_successfully">Bannato Con Successo</string>
+    <string name="blocked_successfully">Bloccato Con Successo</string>
+    <string name="create">Crea</string>
+    <string name="remove_from_admin_privilege">%1$s rimosso da admin</string>
+    <string name="view_members">Visualizza Membri</string>
+    <string name="decline">Declina</string>
+    <string name="deleted_successfully">Eliminato Con Successo</string>
+    <string name="unblocked_successfully">Sbloccato Con Successo</string>
+    <string name="forward_to_5_at_a_time">Non puoi inoltrare con più di 5 persone</string>
+    <string name="sending">Inviando..</string>
+    <string name="message_audio">🎵 Audio</string>
+    <string name="message_image">📷  Foto</string>
+    <string name="message_video">📹  Video</string>
+    <string name="message_file">📁  File</string>
+    <string name="call_accepted">Chiamata Accettata</string>
+    <string name="call_busy">Chiamata Impegnata</string>
+    <string name="call_cancelled">Chiamata Cancellata</string>
+    <string name="call_ended">Chiamata Terminata</string>
+    <string name="call_initiated">Chiamata Iniziata</string>
+    <string name="call_rejected">Chiamata Rifiutata</string>
+    <string name="custom_message_document">📃 Documenti</string>
+    <string name="custom_message_location">📍 Posizione</string>
+    <string name="custom_message_not_supported">Non Supportato</string>
+    <string name="custom_message_poll">📊 Sondaggi</string>
+    <string name="custom_message_sticker">💟 Sticker</string>
+    <string name="custom_message_whiteboard">📝 Lavagna</string>
+    <string name="delete_and_exit">Elimina &amp; Esci</string>
+    <string name="password_protected_group">Gruppo Protetto Da Password</string>
+    <string name="private_group">Gruppo Privato</string>
+    <string name="public_group">Gruppo Pubblico</string>
+    <string name="reply_in_thread">Rispondi al dibattito</string>
+    <string name="no_stickers_found">Nessuno sticker trovato</string>
+    <string name="collaborative_document">Documento Collaborativo</string>
+    <string name="collaborative_whiteboard">Lavagna Collaborativa</string>
+    <string name="thread">Dibattito</string>
+    <string name="no_messages_found">Nessun messaggio trovato</string>
+    <string name="emoji">emoji</string>
+    <string name="close">chiudi</string>
+    <string name="error">Errore</string>
+    <string name="group_members">Membri del Gruppo</string>
+    <string name="no_thread_message">Nessun messaggio nel dibattito</string>
+    <string name="initiated">iniziato</string>
+    <string name="added">aggiunto</string>
+    <string name="kicked_by">cacciato</string>
+    <string name="left">uscito</string>
+    <string name="kick">cacciato</string>
+    <string name="joined">entrato</string>
+    <string name="unban">Sbanna</string>
+    <string name="group_member_kicked_successfully">Membro del gruppo cacciato con successo</string>
+    <string name="add_member_to_group_failed">Impossibile aggiungere membro</string>
+    <string name="made">creato</string>
+    <string name="participant">partecipante</string>
+    <string name="translate_message">Traduci Messaggio</string>
+    <string name="no_translation_available">Nessuna traduzione</string>
+    <string name="has_shared_group_call">chiamata di gruppo condivisa.</string>
+    <string name="you_created_group_call">Hai creato una chiamata di gruppo.</string>
+    <string name="custom_message_meeting">"📹 Chiamata Di Gruppo "</string>
+    <string name="start_group_call">Inizia una chiamata di gruppo</string>
+    <string name="retry">Riprova</string>
+    <string name="uploading">caricamento</string>
+    <string name="voted_success">Votato Con Successo</string>
+    <string name="updating">Aggiornando</string>
+    <string name="extension_not_enabled">estensione non abilitato.</string>
+    <!--_______________________________-->
+
+
+    <string name="something_went_wrong_please_try_again">Qualcosa è andato storto, come il tuo cazzo</string>
+    <string name="please_check_your_internet_connection">Bro c\'hai un wifi di merda riprova con un wifi normale</string>
+
+    <string name="enter_the_correct_password">Inserisci la password corretta</string>
+    <string name="enter_a_valid_name_for_the_user">Inserisci un nome valido</string>
+    <string name="enter_a_valid_name_for_the_group">Inserisci un nome valido</string>
+    <string name="enter_the_required_answer_before_creating_a_poll">Completa tutti i campi prima di creare il sondaggio</string>
+    <string name="enter_the_required_question_before_creating_a_poll">Completa tutti i campi prima di creare il sondaggio</string>
+    <string name="enter_the_correct_uid_to_login">Chi cazzo sei usa il tuo account bro</string>
+    <string name="grant_permission_to_access_camera">Concedi il permesso di accedere alla telecamera</string>
+    <string name="grant_permission_to_access_storage">Concedi il permesso di accedere allo storage</string>
+    <string name="you_cannot_perform_action_on_yourself">Non puoi fare questo su te stesso</string>
+    <string name="do_not_have_permission_to_remove_admin_from_the_group">Non hai il permesso di farlo</string>
+
+
+
+    <string name="send_message_privately">Invia messaggio in privato</string>
+    <string name="view_profile">Guarda Profilo</string>
+    <string name="reply_privately">Rispondi in privato</string>
+    <string name="share_location_alert">Sei sicuro di voler condividere la tua posizione?</string>
+    <string name="select_user">Seleziona User</string>
+    <string name="select_group">Seleziona Gruppo</string>
+    <string name="background_location_permission_title">Accetta il permesso di geolocalizzazione</string>
+    <string name="deny">rifiuta</string>
+    <string name="camera_permission">"Accetti che WhatsApp 2 abbia accesso alla tua fotocamera? "</string>
+    <string name="camera_permission_denied">Per favore accetta tutti i permessi</string>
+    <string name="allow">Accetta</string>
+    <string name="setting">Opzione</string>
+
+    <!--    ______________-->
+</resources>
